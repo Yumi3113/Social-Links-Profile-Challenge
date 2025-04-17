@@ -1,0 +1,123 @@
+/* root 
+Custom Properties 
+- Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%) 
+*/
+
+/* root */
+:root {
+    --Green: #c5f82a;
+    
+    --White: #ffffff;
+    --Grey: #333333;
+    --Dark-Grey: #1f1f1f;
+    --Black: #141414;
+
+    --ff: 'Inter', sans-serif;
+    --fs-body: .875rem;
+    --fs-heading: 1.6rem;
+}
+
+/* reset */
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    line-height: 1;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin-inline: auto;
+    font-style: italic;
+    color: var(--Green);
+}
+
+a {
+    color: var(--White);
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--ff);
+    font-weight: medium;
+    font-size: var(--fs-body);
+    text-align: center;
+    color: var(--White);
+    background: var(--Black);
+}
+
+/* text */
+.user-name {
+    font-weight: 400;
+    margin-bottom: .7rem;
+    font-size: var(--fs-heading);
+    letter-spacing: 0.5px;
+}
+
+.user-location {
+    color: var(--Green);
+    font-weight: 600;
+    margin-bottom: 1.7rem;
+}
+
+.list-item {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 0.6rem;
+    background: var(--Grey);
+    transition: 1s;
+}
+
+.list-item:hover {
+    color: var(--Black);
+    background: var(--Green);
+}
+
+
+/* layout */
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    min-height: 100dvh;
+}
+
+.profile-container {
+    width: 27em;
+    padding: 2.2rem;
+    border-radius: .6rem;
+    background: var(--Dark-Grey);
+}
+
+.links {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.avatar {
+   width: 6em;
+   margin-bottom: 1.5rem;
+   border-radius: 50%;
+}
