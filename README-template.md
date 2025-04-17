@@ -33,10 +33,14 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/Yumi3113/social-links-profile-main)
+- Live Site URL: [live site URL here](https://yumi3113.github.io/social-links-profile-main/)
 
 ## My process
+First I created a style sheet linked it with the html file
+then created classes of each section I want to style, this includes the username, avatar, each social media tab.
+Moving on to the style sheet I created variables to store color and fonts for easier use.
+I then set up the size font and color for each section and played around with the dimension to match the reference photo.
 
 ### Built with
 
@@ -49,39 +53,53 @@ Users should be able to:
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learnt how to; 
 
-To see how you can add code snippets, see below:
+- link the style sheet to the html file:
+  ```html
+  <link rel ="stylesheet" href="style.css">
+  ```
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- Use classes from html to incorperate into css and create variables for easier use in css:
+  ```html
+      <p class="user-location">London, United Kingdom</p>
+  ```
+  ```css
+  /*user-location class*/
+  .user-location {
+      color: var(--Green);
+      font-weight: 600;
+      margin-bottom: 1.7rem;
+    }
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+  /*Variables*/
+  :root {
+      --Green: #c5f82a;
+      
+      --White: #ffffff;
+      --Grey: #333333;
+      --Dark-Grey: #1f1f1f;
+      --Black: #141414;
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+      --ff: 'Inter', sans-serif;
+      --fs-body: .875rem;
+      --fs-heading: 1.6rem;
+  }
+  ```
+
+- Create a hover effect and basic layout methods using css.
+  ```css
+  .list-item:hover {
+      color: var(--Black);
+      background: var(--Green);
+  }
+  ```
 
 ### Continued development
 
-During the making of this project 
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. 
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+After making this project I now understand the basics of classes, how to layout and use effects but i noticed that some of my code are either redundant or overlap with others as I dont fully undertand what each property does. My next steps are to refine my understanding of css and learn better strategies or efficient ways to create certain layout or UI effects.
 
 
 ### Useful resources
