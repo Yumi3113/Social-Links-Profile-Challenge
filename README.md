@@ -102,13 +102,11 @@ After making this project I now understand the basics of classes, how to layout 
 
 ### Useful resources
 
-- [w3schools](https://www.w3schools.com/css/) - This is a website that teaches css it goes through all the cool things you can do using css. I primarily used this website for layouting methods.
+- [w3schools](https://www.w3schools.com/css/) - This is a website that teaches CSS it goes through all the cool things you can do using css. I primarily used this website for layouting methods.
 
 ## Author
 
-- Website - [Louise](https://www.your-site.com)
 - Frontend Mentor - [@yumi#3113](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ## Acknowledgements
 I used this code to add the hover effect:
