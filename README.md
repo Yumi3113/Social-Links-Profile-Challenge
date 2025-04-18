@@ -29,11 +29,12 @@ Users should be able to:
 
 ![Desktop view](image-1.png)
 ![mobile view](image-2.png)
+![Hover effect](image-3.png)
 
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/Yumi3113/social-links-profile-main)
-- Live Site URL: [live site URL here](https://yumi3113.github.io/social-links-profile-main/)
+- Live Site URL: [live site URL here](https://yumi3113.github.io/Social-Links-Profile-Challenge/)
 
 ## My process
 First I created a style sheet linked it with the html file
