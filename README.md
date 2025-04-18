@@ -28,7 +28,6 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop view](image-1.png)
-![mobile view](image-2.png)
 ![Hover effect](image-3.png)
 
 ### Links
